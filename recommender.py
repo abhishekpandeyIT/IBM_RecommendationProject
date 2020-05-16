@@ -292,4 +292,3 @@ class Recommender():
 
 
 		return rec_ids, rec_names, message, rec_user_user_ids, rec_user_item_names
-

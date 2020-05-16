@@ -187,6 +187,3 @@ class Recommender():
 				print("Please update the database with this item")
 
 		return rec_ids, rec_names, message
-
-
-

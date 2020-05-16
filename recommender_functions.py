@@ -89,11 +89,3 @@ def popular_recommendations(user_id, ranked_items, item_id_colname, top_k):
 	top_items = list(ranked_items.drop_duplicates(subset=[item_id_colname])[item_id_colname])[:top_k]
 
 	return top_items
-
-
-
-
-
-
-
-
